@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #4d515d;
+    font-family: Roboto, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-sign-up {
+    width: 100%;
+    max-width: 1050px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px #2f2f2f, -1px -1px 10px #2f2f2f;
+    border-radius: 5px;
+}
+.card-sign-up__left-section__wrapper {
+    padding: 80px 60px 0 60px;
+}
+.card-sign-up__left-section {
+    width: 650px;
+    border-radius: 5px 0 0 5px;
+    background-color: #fff;
+}
+.card-sign-up__left-section__title h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.card-sign-up__left-section__title p {
+    color: #b6b6b6;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.card-sign-up__left-section__social-netwroks {
+    margin-bottom: 80px;
+}
+.social-networks__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #cfcfcf;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.social-networks__item:hover {
+    box-shadow: 5px 5px 10px #cecece, -5px 5px 10px#cecece;
+    border: 1px solid transparent;
+}
+.social-networks__item:hover h4 {
+    color: #000;
+}
+.social-networks__item h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #a0a0a0;
+    font-size: 13px;
+    font-weight: 900;
+    transition: all 0.4s ease-in-out;
+}
+.card-sign-up__footer-section {
+    padding: 40px 60px;
+    border-top: 1px solid #a0a0a0;
+}
+.card-sign-up__footer-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-sign-up__footer-title p {
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-sign-up__footer-title a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #808080;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.2s ease-in-out;
+}
+.card-sign-up__footer-title a:hover {
+    color: #000;
+}
+
+.card-sign-up__right-section img {
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+}
